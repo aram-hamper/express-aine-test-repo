@@ -168,11 +168,28 @@ To run the test suite, first install the dependencies:
 npm install
 ```
 
-Then run `npm test`:
+Then run the tests:
 
 ```bash
 npm test
 ```
+
+#### Test Commands
+
+The project provides several test commands for different purposes:
+
+- **`npm test`** - Run the full test suite with spec reporter and leak detection
+- **`npm run test-cov`** - Run tests with code coverage report (generates HTML and text output)
+- **`npm run test-ci`** - Run tests with coverage for continuous integration (generates LCOV format)
+- **`npm run test-tap`** - Run tests with TAP (Test Anything Protocol) reporter
+
+#### Test Structure
+
+Tests are located in two directories:
+- `test/` - Unit and integration tests
+- `test/acceptance/` - Acceptance tests
+
+Tests use [Mocha](https://mochajs.org/) as the test framework and [Supertest](https://github.com/visionmedia/supertest) for HTTP assertions.
 
 ## Current project team members
 
