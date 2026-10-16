@@ -40,5 +40,17 @@ describe('res', function () {
         .get('/')
         .expect(500, /TypeError: Invalid status code/, done)
     })
+
+    it('should send teapot status text for 418', function (done) {
+      var app = express();
+
+      app.use(function(req, res){
+        res.sendStatus(418);
+      });
+
+      request(app)
+      .get('/')
+      .expect(418, "I'm a Teapot", done);
+    })
   })
 })
