@@ -146,6 +146,8 @@ npm install
 node examples/content-negotiation
 ```
 
+  Examples can be run with `node examples/<name>`.
+
 ## Contributing
 
 The Express.js project welcomes all constructive contributions. Contributions take many forms,
