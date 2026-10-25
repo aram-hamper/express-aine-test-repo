@@ -4,4 +4,8 @@ describe("express exports", () => {
   it("should export Router as a function", () => {
     assert.strictEqual(typeof require("..").Router, "function");
   });
+
+  it("should export static as a function", () => {
+    assert.strictEqual(typeof require("..").static, "function");
+  });
 });
