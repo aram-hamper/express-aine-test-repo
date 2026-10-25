@@ -126,6 +126,12 @@ npm start
   14 template engines via [@ladjs/consolidate](https://github.com/ladjs/consolidate),
   you can quickly craft your perfect framework.
 
+## How a request flows
+
+  When a request arrives, Express passes it through middleware registered with `app.use()` in order. Each middleware can process the request or call `next()` to pass control to the next one. After all middleware, the request reaches the router, which matches the URL and HTTP method against registered routes. The matching route handler then processes the request and sends a response. If no route matches or an error occurs, Express uses a default error handler to respond.
+
+  See **Router & Routing**, **Application (lib/application.js)**, and **Architecture Decisions** in the project wiki for details.
+
 ## Examples
 
   To view the examples, clone the Express repository:
