@@ -19,3 +19,5 @@ Rules for coding agents working in this repository.
 
 - Never add a dependency without saying why in the pull request.
 - Never edit `History.md` or the `version` in `package.json`; maintainers do that at release time.
+
+This branch's wiki rebuilds on Fjorge's daily schedule when it has new commits.
