@@ -1,0 +1,8 @@
+Command 1 - npm --version:
+11.21.1
+
+Command 2 - node -p "require('/usr/local/lib/node_modules/npm/node_modules/undici/package.json').version":
+6.29.1
+
+Command 3 - npm install --no-audit --no-fund (last line):
+npm warn deprecated eslint@8.47.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
