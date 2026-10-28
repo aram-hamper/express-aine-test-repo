@@ -266,6 +266,8 @@ The original author of Express is [TJ Holowaychuk](https://github.com/tj)
 
 ## License
 
+The view lookup functionality is implemented in `lib/view.js`.
+
   [MIT](LICENSE)
 
 [coveralls-image]: https://img.shields.io/coverallsCoverage/github/expressjs/express?branch=master
