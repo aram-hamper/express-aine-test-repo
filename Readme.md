@@ -268,6 +268,8 @@ The original author of Express is [TJ Holowaychuk](https://github.com/tj)
 
   [MIT](LICENSE)
 
+Routing smoke test 329 revision 962e927.
+
 [coveralls-image]: https://img.shields.io/coverallsCoverage/github/expressjs/express?branch=master
 [coveralls-url]: https://coveralls.io/r/expressjs/express?branch=master
 [github-actions-ci-image]: https://img.shields.io/github/actions/workflow/status/expressjs/express/ci.yml?branch=master&label=ci
