@@ -283,3 +283,12 @@ The original author of Express is [TJ Holowaychuk](https://github.com/tj)
 Fjorge live check (S2 B).
 Second line from a follow-up message.
 Sandbox crash drill: initial pushed checkpoint.
+
+## Sandbox Restart-Resilience Drill
+
+This section was added as part of an unmerged sandbox crash/restart drill.
+
+The purpose of this drill is to verify that a pushed checkpoint committed early
+in a session survives a sandbox stop and can be resumed on the same branch.
+This pull request is intentionally left unmerged; it exists solely to
+demonstrate and validate the restart-resilience workflow.
