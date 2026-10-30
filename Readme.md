@@ -292,3 +292,4 @@ The purpose of this drill is to verify that a pushed checkpoint committed early
 in a session survives a sandbox stop and can be resumed on the same branch.
 This pull request is intentionally left unmerged; it exists solely to
 demonstrate and validate the restart-resilience workflow.
+Sandbox crash drill: resumed work completed.
