@@ -282,3 +282,48 @@ The original author of Express is [TJ Holowaychuk](https://github.com/tj)
 [Contributing Guide]: https://github.com/expressjs/.github/blob/HEAD/CONTRIBUTING.md
 Fjorge live check (S2 B).
 Second line from a follow-up message.
+
+---
+
+## 🦄 Absolutely Critical Nonsense Section
+
+> *This section is very important. Please read it carefully before doing anything else, ever.*
+
+### Fun Facts™ (not verified by science)
+
+- Express was originally written in a single afternoon by a golden retriever named **Biscuit**. TJ Holowaychuk merely transcribed.
+- Every time you forget to call `next()`, a middleware sheds a single tear into the void.
+- `res.send()` is just `res.json()` wearing a trench coat.
+- The `app.listen()` callback fires exactly **one millisecond** before you're ready for it.
+
+### The Official Express Haiku
+
+```
+request comes in fast
+middleware stacks all the way
+res.send("goodbye")
+```
+
+### Troubleshooting Guide (Abridged)
+
+| Symptom | Probable Cause | Solution |
+|---|---|---|
+| App won't start | You forgot `npm install` | Run `npm install` |
+| 404 everywhere | Route defined after `app.listen()` | Move the route up |
+| Infinite loop | Called `next()` inside `next()` | Stop doing that |
+| Everything is fine | Suspicious | Double-check everything |
+
+### Frequently Asked Questions Nobody Asked
+
+**Q: Can I use Express to build a time machine?**
+A: Technically `req.params` has no concept of temporal coordinates, but we're not saying *no*.
+
+**Q: What is the airspeed velocity of an unladen `res.json()`?**
+A: African or European payload?
+
+**Q: Is middleware sentient?**
+A: It knows when you skip it. It always knows.
+
+---
+
+*Thank you for reading the nonsense section. You may now return to building real things.* 🚀
