@@ -174,6 +174,8 @@ Then run `npm test`:
 npm test
 ```
 
+The `npm test` script for the `express` package runs `mocha --require test/support/env --reporter spec --check-leaks test/ test/acceptance/`.
+
 ## Current project team members
 
 For information about the governance of the express.js project, see [GOVERNANCE.md](https://github.com/expressjs/discussions/blob/HEAD/docs/GOVERNANCE.md).
