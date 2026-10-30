@@ -5,7 +5,7 @@
   </picture>
 </a>
 
-**Fast, unopinionated, minimalist web framework for [Node.js](https://nodejs.org).**
+**Fast, unopinionated, minimalist web framework for [Node.js](https://nodejs.org).** (UAT item 80 disposable check)
 
 ## Table of contents
 
