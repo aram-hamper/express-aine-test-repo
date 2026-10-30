@@ -146,6 +146,8 @@ npm install
 node examples/content-negotiation
 ```
 
+  See the [opt-in request logging guide](docs/pr384-request-logging.md) for a focused, privacy-aware example.
+
 ## Contributing
 
 The Express.js project welcomes all constructive contributions. Contributions take many forms,
